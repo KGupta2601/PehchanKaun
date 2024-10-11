@@ -48,17 +48,20 @@ Install dependencies:
 
 bash
 Copy code
+
 pip install -r requirements.txt
 Ensure RedisDB is installed and running. You can use the following commands to start Redis:
 
 bash
 Copy code
+
 redis-server
 Running the Application
 To start the ReconCam application, run the following command:
 
 bash
 Copy code
+
 streamlit run app.py
 Deployment
 The project is currently deployed on an AWS VM. To replicate the deployment:
@@ -89,11 +92,3 @@ RedisDB for providing fast in-memory caching.
 AWS for cloud infrastructure support.
 Streamlit for making web development easy with Python.
 Feel free to fork the project, explore the code, and contribute! If you have any questions or run into issues, feel free to reach out to us via issues or pull requests.
-
-markdown
-Copy code
-
-### Key Sections Explained:
-
-- *Project Overview* gives a brief description of ReconCam and its purpose.
-- **Features
